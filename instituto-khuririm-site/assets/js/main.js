@@ -24,12 +24,15 @@
   document.querySelectorAll('[data-copy]').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var el = document.querySelector(btn.getAttribute('data-copy'));
-      if (!el || !navigator.clipboard) return;
-      navigator.clipboard.writeText(el.textContent.trim()).then(function () {
-        var original = btn.textContent;
-        btn.textContent = 'Copiado!';
-        setTimeout(function () { btn.textContent = original; }, 2000);
-      });
+      if (!el) return;
+      var valor = btn.getAttribute('data-copy-value') || el.textContent.trim();
+      var original = btn.textContent;
+      var avisar = function (texto) {
+        btn.textContent = texto;
+        setTimeout(function () { btn.textContent = original; }, 2500);
+      };
+      if (!navigator.clipboard) { avisar('Copie manualmente'); return; }
+      navigator.clipboard.writeText(valor).then(function () { avisar('Copiado!'); }, function () { avisar('Copie manualmente'); });
     });
   });
 

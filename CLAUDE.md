@@ -8,6 +8,7 @@ Pedidos, status e pendências ficam em `SOLICITACOES-CLIENTE.md`.
 - **Site:** https://institutokhuririm.com.br (e `www.`). One-page estático: HTML, CSS e JS puro, sem build.
 - **Código publicado:** só a pasta `instituto-khuririm-site/` (definida em `wrangler.jsonc`). Arquivos na raiz do repositório, como este, não vão ao ar.
 - **Hospedagem:** Cloudflare Workers com assets estáticos. Worker `institutokhuririm`, conta `e9dec97370b71cab6410d54362b5b7bd`. Domínios ligados por `custom_domain` no `wrangler.jsonc`.
+- **Redirecionamentos:** `src/worker.js` roda antes dos arquivos (`run_worker_first`) e manda `http://` e `www.` para `https://institutokhuririm.com.br` (301). Endereço inexistente mostra `404.html` (`not_found_handling: "404-page"`).
 - **Deploy:** `npx --yes wrangler@4 deploy` na raiz do repositório. Não há deploy automático por push.
 - **DNS:** domínio comprado no registro.br, com nameservers do Cloudflare (`damien` e `zelda.ns.cloudflare.com`).
 - **Análise de acesso:** Cloudflare Web Analytics, injetado automaticamente pelo Cloudflare (painel: Analytics → Web Analytics). Sem cookies.
@@ -23,13 +24,17 @@ Pedidos, status e pendências ficam em `SOLICITACOES-CLIENTE.md`.
 - `_headers`: cabeçalhos de segurança (CSP, HSTS etc.) e cache. **Recurso externo novo precisa ser liberado na CSP.**
 - `.assetsignore`: impede publicar `README.md`, arquivos `*:Zone.Identifier` e **qualquer arquivo com espaço no nome** (fotos originais do cliente).
 - `sitemap.xml` e `robots.txt`.
+- `404.html`: página de erro com a identidade do site (`noindex`).
+- **WhatsApp:** 55 34 99200-0208 em todos os botões e no botão flutuante (`.wa-float`, antes do `</body>`). Mensagens prontas vão codificadas em URL.
+- **PIX:** chave (34) 99200-0208 (o botão copia `+5534992000208` via `data-copy-value`), favorecido AK Dojo Jiujitsu Escola, CNPJ 28.762.457/0001-52 (empresário individual, **não** é CNPJ da OSC), Banco C6.
 
 ## Armadilhas já encontradas
 
 - **O deploy publica a pasta local, não o git.** Já aconteceu de o cartaz original de campanha e o README irem ao ar sem estar no commit. Depois de publicar, rode `publicos.sh` da skill.
 - **Arquivos `*:Zone.Identifier`** aparecem quando o Fausto copia arquivos do Windows. Nunca commitar.
 - **Logo:** veio de print, não do designer. O fundo de `logo-completa.png` foi deixado transparente para combinar com o rodapé. O arquivo oficial (SVG) ainda está pendente com o cliente.
-- **Placeholders** no padrão `[ASSIM]` são intencionais: indicam dado que o cliente ainda não mandou. Não remova sem o dado real.
+- **Placeholders** no padrão `[ASSIM]` são intencionais: indicam dado que o cliente ainda não mandou. Não remova sem o dado real. Nunca use um marcador como `href` (vira link para 404).
+- **CNPJ 28.762.457/0001-52 é da academia** (empresário individual), não do instituto. Não colocar como CNPJ da OSC.
 
 ## Regras do cliente
 

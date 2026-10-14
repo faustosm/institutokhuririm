@@ -228,7 +228,7 @@ Legenda de status:
 
 ## 11. Dados e materiais enviados (foto do fundador, PIX, CNPJ, vídeo, e-mail)
 
-**Status:** Implementado em parte. PIX e CNPJ aguardam confirmação.
+**Status:** Implementado. PIX publicado em 14/10/2026 como dado do favorecido; CNPJ da OSC continua pendente.
 
 **Pedido:** usar a foto "Foto perfil fubdador", preencher favorecido, chave PIX, CNPJ e banco, incluir o vídeo institucional (reel do Instagram) e remover o e-mail do site, porque o instituto ainda não tem.
 
@@ -241,6 +241,8 @@ Legenda de status:
 - **CNPJ 28.762.457/0001-52:** consulta pública (cnpj.ws, 14/10/2026) mostra razão social "28.762.457 ANDERSON ROSA TEIXEIRA", natureza **Empresário (Individual)**, nome fantasia "AK DOJO JIUJITSU ESCOLA", atividade "Ensino de esportes", ativa, Uberlândia/MG. **Não é CNPJ de OSC/associação.** O site diz "Instituto Khuririm · OSC · CNPJ" no rodapé e tem "CNPJ" na seção Transparência como dado da instituição. Publicar esse número ali apresentaria a academia como se fosse o instituto.
 - **PIX "99200-0208" / favorecido "Ak Dojo Jiujistu Escola" / Banco C6:** a conta é da academia (mesmo CNPJ). O site dizia "Pagamento direto na conta do instituto". Além disso, a chave parece um celular **sem DDD**; chave de celular precisa de DDD para funcionar.
 
+**Atualização (14/10/2026, 2º envio com DDD):** PIX publicado na área de doação: chave (34) 99200-0208 (o botão copia `+5534992000208`), favorecido "AK Dojo Jiujitsu Escola" (nome corrigido de "Jiujistu" conforme a Receita), CNPJ 28.762.457/0001-52, Banco C6 S.A., com aviso "Antes de confirmar, confira se o favorecido é a AK Dojo Jiujitsu Escola". A frase "Pagamento direto na conta do instituto" foi removida. O CNPJ **não** foi colocado no rodapé nem na Transparência, onde aparece como CNPJ da OSC.
+
 **Confirmar com o cliente:**
 - O Instituto Khuririm já tem CNPJ próprio (associação/OSC)? Se ainda não, o rodapé deve deixar de dizer "OSC · CNPJ" até o registro sair?
 - As doações devem mesmo cair na conta da AK Dojo Jiujitsu Escola? Se sim, o texto da doação precisa dizer isso claramente (ex.: "conta da AK Dojo Jiujitsu Escola, que mantém o projeto"), e não "conta do instituto".
@@ -249,10 +251,43 @@ Legenda de status:
 
 ---
 
+## 12. Revisão geral do site (pedida pelo Fausto em 14/10/2026)
+
+**Status:** Correções técnicas e de layout implementadas. Itens de conteúdo e jurídicos aguardam decisão.
+
+**Falhas corrigidas:**
+- **WhatsApp sem número:** os 4 botões usavam `5534XXXXXXXXX`. Agora todos usam 55 34 99200-0208, com mensagens prontas codificadas corretamente.
+- **"Inscrever pelo WhatsApp" (Aulas)** rolava até Contato em vez de abrir o WhatsApp. Agora abre direto, com mensagem de inscrição.
+- **`http://` abria sem cadeado** e **`www` duplicava o site**. Um Worker (`src/worker.js`) redireciona tudo (301) para `https://institutokhuririm.com.br`.
+- **Página 404 em branco.** Criada `404.html` com a identidade do site e botões para o início e o contato.
+- **Links-marcador levavam a 404** ("ver aqui", "ver estatuto", "ver relatórios", "ver prestações de contas"). Viraram texto até os documentos chegarem; na doação, o link aponta para a seção Transparência.
+- **PIX:** nome do favorecido quebrava no meio da palavra; cartão de doação apertado. Cartões de apoio agora em 2 colunas no desktop.
+- **Link de baixo contraste** (azul sobre azul) no cartão de doação.
+- **Títulos colados nos parágrafos** nas aberturas de seção (Missão e visão, Transparência, Apoie).
+- **Cartões dos programas** invisíveis (branco sobre branco): ganharam borda.
+- **Botão do menu** sem `type="button"` (validação HTML).
+- **Botão "Copiar chave"** não avisava quando o navegador bloqueava a cópia; agora mostra "Copie manualmente".
+
+**Melhorias implementadas:**
+- **Botão flutuante de WhatsApp** no canto inferior direito, em todas as telas (padrão de mercado no Brasil, principal canal de conversão no celular).
+
+**Verificação:** 4 tamanhos de tela sem erros; Lighthouse celular 98/100/100/100, desktop 100/100/100/100.
+
+**Recomendações que dependem de decisão do cliente:**
+1. **"OSC" no site.** Aparece no topo ("OSC · UBERLÂNDIA-MG"), no rodapé, na descrição para o Google e nos dados estruturados. O único CNPJ informado é de empresário individual (AK Dojo). Se o instituto ainda não está registrado como associação, o correto é tirar "OSC" até o registro sair.
+2. **Marcadores visíveis ao público** (17 hoje): logos de parceiros, mapa, dados de aulas, transparência e CNPJ. Padrão de mercado é não exibir campos vazios. Sugestão: esconder cada bloco até o dado chegar, mantendo o registro aqui.
+3. **"Aulas gratuitas" / "É gratuito: … a criança já pode começar."** Texto herdado do modelo, não enviado pelo cliente. Afirma gratuidade e disponibilidade imediata, o que o cliente pediu para não divulgar sem confirmação.
+4. **Slogan do rodapé** ainda é o antigo ("Pessoas mais fortes. Sociedade melhor."), diferente do título novo ("Transformando vidas. Construindo futuros."). Confirmar qual é o slogan oficial.
+5. **Página muito longa no celular** (cerca de 26 telas de rolagem). Sugestão: resumir os textos longos (história, homenagem, programas) com "Ler mais", ou mover o conteúdo completo para páginas próprias.
+6. **Política de Privacidade (LGPD)** e link no rodapé: continua pendente.
+7. **Seção "Impacto social"** do menu pedido: continua sem conteúdo (números de alunos atendidos, anos de atuação, depoimentos).
+8. **Vídeo:** com link do YouTube, o vídeo pode tocar dentro do site.
+
+---
+
 ## Outras pendências gerais
 
 - Textos com marcadores ainda no site: nome completo e graduação do professor, horários das turmas, dias da semana, endereço do treino, e-mail (`[E-MAIL DO INSTITUTO]`), mapa do local (`[MAPA DO LOCAL DE TREINO]`) e CNPJ no rodapé.
-- Número do WhatsApp (`5534XXXXXXXXX`) nos botões da seção Contato.
 - Autorização de uso de imagem: as fotos de crianças da galeria e da seção "Nossa história" precisam de autorização dos responsáveis (ECA/LGPD).
 - Texto alternativo das fotos: as descrições são genéricas ("Foto da galeria do Instituto Khuririm 1" etc.). Se o cliente quiser, podemos descrever melhor cada foto.
 
@@ -271,8 +306,10 @@ Legenda de status:
 - [ ] Extra (apoiador) publicado, com confirmação escrita.
 - [ ] Ponto 9 implementado (itens 1 a 9 acima) e revisado.
 - [x] Ponto 10 (homenagem) publicado, com a foto dos dois.
-- [ ] Ponto 11: CNPJ e PIX publicados só depois de confirmar de quem é a conta e a chave com DDD.
-- [ ] Nenhum marcador entre colchetes ou "5534XXXXXXXXX" aparece no site público.
+- [x] Ponto 11: PIX publicado como conta da AK Dojo (favorecido identificado).
+- [ ] Ponto 11: CNPJ da OSC (rodapé e Transparência) só quando o instituto tiver CNPJ próprio.
+- [ ] Ponto 12: decisões pendentes da revisão geral.
+- [ ] Nenhum marcador entre colchetes aparece no site público.
 
 ---
 

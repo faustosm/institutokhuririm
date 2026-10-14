@@ -9,7 +9,11 @@
     { "pattern": "institutokhuririm.com.br", "custom_domain": true },
     { "pattern": "www.institutokhuririm.com.br", "custom_domain": true }
   ],
+  "main": "src/worker.js",
   "assets": {
-    "directory": "./instituto-khuririm-site"
+    "directory": "./instituto-khuririm-site",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "404-page"
   }
 }
