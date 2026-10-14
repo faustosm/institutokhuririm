@@ -123,6 +123,8 @@ p { margin: 0; }
 .hero-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 56px; padding-top: 72px; padding-bottom: 88px; }
 .hero-text { flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 24px; }
 .hero h1 { font-weight: 800; font-size: clamp(42px, 6vw, 76px); line-height: 1; }
+.hero-lead { display: grid; gap: 12px; }
+.hero-lead p { margin: 0; font-size: 18px; line-height: 1.55; color: var(--gelo); max-width: 560px; }
 .lead { font-size: 20px; line-height: 1.55; color: var(--gelo); max-width: 560px; }
 .actions { display: flex; flex-wrap: wrap; gap: 14px; }
 .hero-media { flex: 1 1 340px; min-width: 0; position: relative; }
