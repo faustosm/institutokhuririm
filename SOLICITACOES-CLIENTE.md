@@ -164,11 +164,51 @@ Legenda de status:
 
 ---
 
-## 9. Pendente de envio pelo cliente
+## 9. Ajustes visuais, funcionais, técnicos e de privacidade
 
-**Status:** Aguardando envio.
+**Status:** Recebido, em avaliação. Ainda não implementado.
 
-O cliente vai enviar o ponto 9. Quando chegar, será avaliado e implementado, e depois será feita uma revisão de tudo.
+**Pedido (resumo):** acabamento visual profissional com a identidade atual, logo oficial, menu INÍCIO | QUEM SOMOS | NOSSOS PROGRAMAS | IMPACTO SOCIAL | TRANSPARÊNCIA | APOIE | CONTATO, funcionamento em celular, tablet e computador, velocidade, acessibilidade, SEO, compartilhamento, sitemap, análise de acesso, versão em inglês, Política de Privacidade (LGPD) e cuidados com dados e imagens de crianças.
+
+**Situação atual do site:**
+- Menu atual: Sobre, Aulas, Valores, Galeria, Contato e Quero apoiar. Não tem "Quem somos", "Nossos programas", "Impacto social" nem "Transparência".
+- Não há seção "Impacto social" e o cliente não enviou conteúdo para ela.
+- Título e descrição da página e og:title/og:description existem. A og:image aponta para um caminho relativo (`assets/img/logo-completa.png`), que deveria ser absoluto.
+- Textos alternativos das fotos são genéricos.
+- Não há formulário. Os botões levam ao WhatsApp.
+- Não há ferramenta de análise de acesso, sitemap, robots.txt nem Política de Privacidade.
+- O hero ficou com quatro parágrafos. Isso conflita com o pedido de evitar textos longos na página inicial.
+- Só testei o layout em celular (390 px). Tablet e desktop ainda não foram conferidos.
+
+**Pontos que precisam de decisão ou de material do cliente:**
+- Logo oficial: a logo atual veio de print, segundo o README. Para a identidade oficial, precisamos do arquivo vetorial (SVG) com o designer. Também alterei o fundo de `logo-completa.png` para transparente. Isso mexe no arquivo de marca, então o ideal é voltar ao original e pedir o SVG.
+- Impacto social: falta o conteúdo.
+- Versão em inglês: exige tradução de todo o texto e revisão do cliente.
+- Formulário: o pedido fala em formulários, mas o site hoje não tem nenhum. Se for criar, o formulário coleta dados pessoais e precisa de Política de Privacidade.
+- Política de Privacidade (LGPD): posso redigir um modelo, mas precisa ser revisada por um advogado, e depende de quais dados o site coleta.
+- Autorização de imagem de crianças: só o instituto consegue confirmar as autorizações dos responsáveis.
+- Ferramenta de análise: sugiro Cloudflare Web Analytics, que não usa cookies e dispensa banner de cookies. Precisa de uma ativação no painel da conta.
+- Google Search Console e verificação em redes sociais: dependem de login da conta do instituto.
+
+**O que consigo fazer já, sem depender do cliente:**
+1. Ajustar o menu para o pedido (rótulos e âncoras para as seções existentes).
+2. Enxugar o hero, mantendo o início curto e movendo parte do texto para a seção "Quem somos".
+3. Corrigir a og:image para caminho absoluto e completar metas de compartilhamento.
+4. Criar `sitemap.xml` e `robots.txt`.
+5. Adicionar cabeçalhos de segurança (Content-Security-Policy, HSTS, X-Content-Type-Options) via arquivo `_headers` do Cloudflare.
+6. Melhorar textos alternativos das fotos e corrigir contraste onde for necessário.
+7. Otimizar imagens para WebP, com fallback.
+8. Conferir layout em tablet e desktop.
+9. Medir desempenho e acessibilidade com Lighthouse e axe.
+
+**Depende de decisão ou material:** logo em SVG, conteúdo de Impacto social, versão em inglês, formulário, Política de Privacidade revisada, análise de acesso e autorizações de imagem.
+
+**Confirmar com o cliente:**
+- Quer uma seção "Impacto social"? Se sim, quais são os conteúdos?
+- Quer a versão em inglês agora ou depois?
+- Precisa de formulário, ou WhatsApp basta?
+- Tem o arquivo vetorial da logo?
+- Quem pode autorizar a Política de Privacidade e revisar o texto?
 
 ---
 
@@ -191,5 +231,5 @@ O cliente vai enviar o ponto 9. Quando chegar, será avaliado e implementado, e 
 - [ ] Ponto 6 publicado, com documentos e dados.
 - [ ] Ponto 7 publicado, com foto e vídeo.
 - [ ] Ponto 8 publicado, com confirmação escrita.
-- [ ] Ponto 9 avaliado e implementado.
+- [ ] Ponto 9 implementado (itens 1 a 9 acima) e revisado.
 - [ ] Nenhum marcador entre colchetes ou "5534XXXXXXXXX" aparece no site público.
