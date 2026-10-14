@@ -79,7 +79,7 @@ Legenda de status:
 
 ---
 
-## 5. Seja um apoiador
+## 6. Seja um apoiador (cliente: ponto 6)
 
 **Status:** Implementado, com pendências.
 
@@ -102,7 +102,7 @@ Legenda de status:
 
 ---
 
-## 6. Transparência e responsabilidade
+## 7. Transparência e responsabilidade (cliente: ponto 7)
 
 **Status:** Implementado, com pendências.
 
@@ -127,7 +127,7 @@ Legenda de status:
 
 ---
 
-## 7. Apresentação do fundador
+## 8. Apresentação do fundador (cliente: ponto 8)
 
 **Status:** Implementado, com pendências.
 
@@ -146,7 +146,7 @@ Legenda de status:
 
 ---
 
-## 8. Quem apoia (apoiador)
+## Extra. Quem apoia (apoiador, pedido fora da lista do cliente)
 
 **Status:** Implementado, com pendências.
 
@@ -227,9 +227,277 @@ Legenda de status:
 - [ ] Ponto 2 publicado conforme enviado.
 - [ ] Ponto 3 publicado conforme enviado.
 - [ ] Ponto 4 publicado, com status dos programas confirmado.
-- [ ] Ponto 5 publicado, com PIX, favorecido, prestação de contas e WhatsApp.
-- [ ] Ponto 6 publicado, com documentos e dados.
-- [ ] Ponto 7 publicado, com foto e vídeo.
-- [ ] Ponto 8 publicado, com confirmação escrita.
+- [ ] Ponto 5: confirmar com o cliente se faltou algum item (não foi enviado).
+- [ ] Ponto 6 publicado, com PIX, favorecido, prestação de contas e WhatsApp.
+- [ ] Ponto 7 publicado, com documentos e dados.
+- [ ] Ponto 8 publicado, com foto e vídeo.
+- [ ] Extra (apoiador) publicado, com confirmação escrita.
 - [ ] Ponto 9 implementado (itens 1 a 9 acima) e revisado.
 - [ ] Nenhum marcador entre colchetes ou "5534XXXXXXXXX" aparece no site público.
+
+---
+
+## Anexo: texto original enviado pelo cliente
+
+Recebido em 14/10/2026 pelo WhatsApp (Anderson Khuririm). Os textos estão exatamente como foram enviados, para comparar com o site na revisão final.
+
+Observações sobre o envio:
+
+- O ponto 1 veio sem número. Ele foi tratado como "1. Página inicial".
+- **Não houve ponto 5.** A numeração vai do 4 para o 6. Confirmar com o cliente se faltou algum item.
+- Na mensagem reenviada, o ponto 3 veio cortado ("fundamentais para o c…"). O texto abaixo é a versão completa enviada antes.
+
+### 1. Página inicial
+
+```text
+A página inicial precisa emocionar, transmitir credibilidade e explicar imediatamente o propósito do Instituto.
+
+Título principal sugerido
+
+TRANSFORMANDO VIDAS. CONSTRUINDO FUTUROS.
+
+Texto de apresentação
+
+Acreditamos que toda criança merece uma oportunidade de construir um futuro melhor.
+
+No Instituto Khuririm, utilizamos o esporte, a educação e o desenvolvimento socioemocional como ferramentas para transformar realidades, fortalecer princípios e valores e abrir novos caminhos para crianças e adolescentes.
+
+Mais do que ensinar uma modalidade esportiva, queremos formar pessoas preparadas para os desafios da vida.
+
+O esporte é o começo. A transformação vai muito além do tatame.
+```
+
+### 2. Nossa história — como tudo começou
+
+```text
+UM SONHO QUE NASCEU NO CORAÇÃO DE DEUS.
+
+Texto
+
+Toda grande transformação começa com um propósito.
+
+A história do Instituto Khuririm tem suas raízes em 1998, quando nasceu o desejo de utilizar o esporte como instrumento de transformação social.
+
+O que começou como um sonho colocado por Deus no coração de seu fundador tornou-se uma missão: oferecer oportunidades a crianças e adolescentes, especialmente àqueles que enfrentam situações de vulnerabilidade social.
+
+Ao longo dessa caminhada, aprendemos que ensinar vai muito além de uma técnica esportiva.
+
+É acolher. É orientar. É ensinar o respeito. É desenvolver a disciplina. É ajudar uma criança a acreditar em si mesma.
+
+Hoje, o Instituto Khuririm representa a continuidade desse propósito, ampliando sua atuação por meio do esporte, da educação, do desenvolvimento socioemocional e do acompanhamento especializado.
+
+Nossa missão não é apenas formar atletas.
+
+É contribuir para a formação de seres humanos com princípios, valores e oportunidades de futuro.
+```
+
+### 3. Missão, visão e valores
+
+```text
+NOSSA MISSÃO
+
+Promover o desenvolvimento humano e a transformação social de crianças e adolescentes por meio do esporte, da educação e do fortalecimento das competências socioemocionais, proporcionando oportunidades de crescimento pessoal e construção de um futuro melhor.
+
+NOSSA VISÃO
+
+Ser uma instituição de referência em desenvolvimento humano e formação esportiva, reconhecida pela capacidade de transformar realidades, fortalecer famílias e gerar impacto social positivo nas comunidades em que atua.
+
+NOSSOS VALORES
+
+Fé: Acreditamos em um propósito maior, fundamentado no amor a Deus e ao próximo.
+
+Respeito: Reconhecemos a dignidade e o valor de cada pessoa.
+
+Disciplina: Ensinamos que compromisso e constância são fundamentais para o crescimento.
+
+Integridade: Agimos com honestidade, responsabilidade e transparência.
+
+Empatia: Acolhemos cada pessoa, respeitando suas necessidades e sua história.
+
+Perseverança: Ensinamos que dificuldades podem ser superadas com dedicação e coragem.
+
+Solidariedade: Acreditamos no poder de servir e transformar a vida do próximo.
+```
+
+### 4. Nossos programas — muito além do esporte
+
+```text
+EDUCAÇÃO, ESPORTE E DESENVOLVIMENTO HUMANO
+
+Cinco caminhos. Um único propósito: transformar vidas.
+
+JIU-JÍTSU — ESPORTE E FORMAÇÃO DE CARÁTER
+
+O jiu-jítsu é uma das principais ferramentas de transformação utilizadas pelo Instituto.
+
+Por meio do esporte, crianças e adolescentes desenvolvem disciplina, respeito, autocontrole, confiança, responsabilidade e capacidade de superar desafios.
+
+Nosso trabalho não se limita à formação esportiva. Buscamos ensinar valores que acompanharão nossos alunos por toda a vida.
+
+DESENVOLVIMENTO SOCIOEMOCIONAL
+
+Acreditamos que o desenvolvimento emocional é tão importante quanto o físico e o intelectual.
+
+Por isso, trabalhamos competências como autoconhecimento, empatia, respeito, convivência, comunicação, responsabilidade e inteligência emocional.
+
+Nosso objetivo é contribuir para que crianças e adolescentes aprendam a reconhecer suas emoções, construir relacionamentos saudáveis e enfrentar os desafios cotidianos.
+
+INGLÊS — CONHECIMENTO QUE ABRE PORTAS
+
+O acesso à educação amplia horizontes e cria possibilidades.
+
+Por meio do ensino da língua inglesa, buscamos oferecer novas oportunidades de aprendizagem, desenvolvimento cultural e preparação para o futuro.
+
+ESPANHOL — AMPLIANDO HORIZONTES
+
+Aprender um novo idioma também significa conhecer novas culturas e ampliar as possibilidades de comunicação.
+
+As atividades de língua espanhola contribuem para a formação educacional e cultural dos participantes.
+
+ACOMPANHAMENTO PSICOLÓGICO
+
+Com o apoio de profissionais habilitados, buscamos oferecer acolhimento, orientação e acompanhamento psicológico, contribuindo para o bem-estar emocional e o desenvolvimento saudável dos participantes.
+
+Entendemos que cuidar das emoções também faz parte da construção de um futuro melhor.
+
+Observação ao desenvolvedor: apresentar claramente quais programas estão em funcionamento, quais possuem vagas e quais estão em implantação. Não divulgar serviços como disponíveis antes de sua confirmação. Informar que atividades psicológicas são conduzidas por profissionais devidamente habilitados.
+```
+
+### 5. (não enviado)
+
+O cliente não enviou um ponto 5.
+
+### 6. Seja um apoiador — faça parte dessa transformação
+
+```text
+VOCÊ TAMBÉM PODE TRANSFORMAR UMA HISTÓRIA.
+
+Texto
+
+Nenhuma grande transformação acontece sozinha.
+
+Por trás de cada criança que encontra uma nova oportunidade, existem pessoas que acreditam, apoiam e decidem fazer a diferença.
+
+Ao apoiar o Instituto Khuririm, você contribui para a continuidade e a ampliação de iniciativas voltadas ao esporte, à educação e ao desenvolvimento humano.
+
+Sua participação pode ajudar a construir oportunidades que transformarão vidas.
+
+Criar quatro opções
+
+SEJA UM DOADOR
+
+Contribua financeiramente para a manutenção e o desenvolvimento dos projetos.
+
+SEJA UM VOLUNTÁRIO
+
+Compartilhe seu conhecimento, sua experiência e seu tempo com quem precisa de oportunidades.
+
+SEJA UMA EMPRESA PARCEIRA
+
+Associe sua empresa a uma iniciativa de impacto social e contribua para a ampliação dos projetos.
+
+APOIE UM PROJETO
+
+Conheça as necessidades das atividades e descubra como colaborar diretamente.
+
+Funcionalidades necessárias
+
+Criar botões específicos para cada modalidade de apoio, direcionando o interessado ao WhatsApp ou a um formulário adequado.
+
+Na área de doações, apresentar a chave PIX oficial da instituição, nome do favorecido, informações de segurança e prestação de contas.
+```
+
+### 7. Transparência e credibilidade institucional
+
+```text
+Criar uma seção denominada:
+
+TRANSPARÊNCIA E RESPONSABILIDADE
+
+O Instituto Khuririm acredita que transformar vidas exige compromisso, responsabilidade e confiança.
+
+Por isso, valorizamos a transparência em nossas atividades, projetos, parcerias e na utilização dos recursos recebidos.
+
+Incluir
+
+* Nome jurídico completo da instituição, conforme cadastro oficial.
+* CNPJ.
+* Estatuto social atualizado.
+* Informações sobre a diretoria.
+* Identificação da liderança responsável.
+* Relatórios de atividades.
+* Prestações de contas disponíveis.
+* Identificação de parceiros e apoiadores autorizados.
+
+Essa seção deve ser atualizada à medida que os documentos e relatórios forem disponibilizados.
+```
+
+### 8. Apresentação do fundador
+
+```text
+Criar uma seção institucional dedicada à liderança e à origem do projeto.
+
+Título
+
+UMA VIDA DEDICADA A FORMAR PESSOAS.
+
+Apresentação
+
+Anderson Khuririm
+Fundador do Instituto Khuririm
+Professor faixa-preta de Jiu-Jítsu
+
+Com uma trajetória dedicada ao esporte e à formação humana, Anderson Khuririm acredita que o verdadeiro valor de um projeto social está nas vidas que ele consegue alcançar.
+
+Sua visão parte de um princípio: o esporte pode ser uma poderosa ferramenta de educação, acolhimento e transformação social.
+
+O Instituto representa a continuidade dessa missão, reunindo pessoas, profissionais, voluntários e parceiros comprometidos com a construção de novas oportunidades.
+
+Orientação
+
+Incluir uma fotografia profissional do fundador e, se possível, um vídeo institucional breve, apresentando a história, o propósito e o futuro desejado para o Instituto.
+
+O foco da apresentação deve estar na missão e nas pessoas beneficiadas, e não apenas nas conquistas esportivas do fundador.
+```
+
+### 9. Ajustes visuais e funcionais
+
+```text
+Solicito manter a identidade visual do Instituto Khuririm, mas melhorar o acabamento profissional de toda a página.
+
+Design
+
+Utilizar a logomarca oficial, respeitando suas proporções, cores e área de proteção.
+
+Criar uma aparência institucional contemporânea, limpa e sofisticada, com boa hierarquia visual e espaçamento entre os elementos.
+
+Dar destaque às fotografias reais e aos títulos principais.
+
+Evitar textos excessivamente longos na página inicial, distribuindo informações mais completas em seções específicas.
+
+Menu recomendado
+
+INÍCIO | QUEM SOMOS | NOSSOS PROGRAMAS | IMPACTO SOCIAL | TRANSPARÊNCIA | APOIE | CONTATO
+
+Experiência do usuário
+
+O site precisa funcionar perfeitamente em celulares, tablets e computadores.
+
+As informações devem ser facilmente encontradas, com botões claros e um caminho simples para inscrições, parcerias e doações.
+
+Requisitos técnicos
+
+Revisar velocidade de carregamento, otimização das imagens, acessibilidade, SEO, segurança e indexação nos mecanismos de busca.
+
+Configurar corretamente títulos, descrições, compartilhamento em redes sociais, sitemap, ferramentas de análise de acesso e mecanismos para acompanhamento das interações.
+
+Considerar também uma versão em inglês para facilitar a apresentação institucional a parceiros internacionais.
+
+Privacidade e proteção das crianças
+
+Criar uma Política de Privacidade adequada à LGPD.
+
+Garantir que fotografias, vídeos, depoimentos e informações de crianças e adolescentes sejam utilizados apenas com as autorizações e salvaguardas necessárias.
+
+Os formulários devem coletar somente dados necessários para sua finalidade e apresentar informações claras sobre seu tratamento.
+```
