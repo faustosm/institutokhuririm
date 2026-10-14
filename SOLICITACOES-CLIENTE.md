@@ -207,7 +207,7 @@ Legenda de status:
 
 ## 10. Homenagem ao padrinho: "Quando alguém acredita em um sonho"
 
-**Status:** Implementado, com pendências.
+**Status:** Implementado (falta só confirmar os pontos abaixo).
 
 **Pedido:** seção exclusiva logo abaixo da apresentação do fundador e antes de "Nossos programas", com título, subtítulo, identificação de Cristiano Caporezzo como padrinho e apoiador, o texto da história, a mensagem do fundador e uma foto dos dois.
 
@@ -217,11 +217,9 @@ Legenda de status:
 - Corrigidos espaços duplos do texto original ("Khuririm  era"). Nenhuma palavra foi alterada.
 - A legenda do cartão em "Quem apoia" passou de "Apoiador · Caporezzo, deputado federal" para "Cristiano Caporezzo · padrinho e apoiador", para ficar igual à homenagem.
 
-**Pendências (marcador no site):**
-- Foto de Anderson Khuririm e Cristiano Caporezzo (`[FOTO DE ANDERSON KHURIRIM E CRISTIANO CAPOREZZO]`).
+**Foto:** recebida em 14/10/2026 e publicada (`padrinho.webp`, com versão de 600 px). Os dois aparecem de kimono com o patch "Deputado Estadual Caporezzo".
 
 **Confirmar com o cliente:**
-- Pode enviar a foto dos dois, de preferência em alta resolução?
 - Aprova o rótulo "HOMENAGEM" acima do título?
 - A legenda nova em "Quem apoia" ("Cristiano Caporezzo · padrinho e apoiador") está correta?
 - Mesma ressalva do item "Extra": o texto cita a trajetória política do padrinho. Vale confirmar com quem acompanha a parte jurídica do instituto.
@@ -249,7 +247,7 @@ Legenda de status:
 - [ ] Ponto 8 publicado, com foto e vídeo.
 - [ ] Extra (apoiador) publicado, com confirmação escrita.
 - [ ] Ponto 9 implementado (itens 1 a 9 acima) e revisado.
-- [ ] Ponto 10 (homenagem) publicado, com a foto dos dois.
+- [x] Ponto 10 (homenagem) publicado, com a foto dos dois.
 - [ ] Nenhum marcador entre colchetes ou "5534XXXXXXXXX" aparece no site público.
 
 ---
