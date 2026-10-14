@@ -205,6 +205,29 @@ Legenda de status:
 
 ---
 
+## 10. Homenagem ao padrinho: "Quando alguém acredita em um sonho"
+
+**Status:** Implementado, com pendências.
+
+**Pedido:** seção exclusiva logo abaixo da apresentação do fundador e antes de "Nossos programas", com título, subtítulo, identificação de Cristiano Caporezzo como padrinho e apoiador, o texto da história, a mensagem do fundador e uma foto dos dois.
+
+**Feito em 14/10/2026:**
+- Seção "Quando alguém acredita em um sonho." entre "Fundador" e "Nossos programas", com rótulo "HOMENAGEM".
+- Subtítulo, nome e função, os seis parágrafos da história e "Uma mensagem do fundador" em destaque, assinada por Anderson Khuririm.
+- Corrigidos espaços duplos do texto original ("Khuririm  era"). Nenhuma palavra foi alterada.
+- A legenda do cartão em "Quem apoia" passou de "Apoiador · Caporezzo, deputado federal" para "Cristiano Caporezzo · padrinho e apoiador", para ficar igual à homenagem.
+
+**Pendências (marcador no site):**
+- Foto de Anderson Khuririm e Cristiano Caporezzo (`[FOTO DE ANDERSON KHURIRIM E CRISTIANO CAPOREZZO]`).
+
+**Confirmar com o cliente:**
+- Pode enviar a foto dos dois, de preferência em alta resolução?
+- Aprova o rótulo "HOMENAGEM" acima do título?
+- A legenda nova em "Quem apoia" ("Cristiano Caporezzo · padrinho e apoiador") está correta?
+- Mesma ressalva do item "Extra": o texto cita a trajetória política do padrinho. Vale confirmar com quem acompanha a parte jurídica do instituto.
+
+---
+
 ## Outras pendências gerais
 
 - Textos com marcadores ainda no site: nome completo e graduação do professor, horários das turmas, dias da semana, endereço do treino, e-mail (`[E-MAIL DO INSTITUTO]`), mapa do local (`[MAPA DO LOCAL DE TREINO]`) e CNPJ no rodapé.
@@ -226,6 +249,7 @@ Legenda de status:
 - [ ] Ponto 8 publicado, com foto e vídeo.
 - [ ] Extra (apoiador) publicado, com confirmação escrita.
 - [ ] Ponto 9 implementado (itens 1 a 9 acima) e revisado.
+- [ ] Ponto 10 (homenagem) publicado, com a foto dos dois.
 - [ ] Nenhum marcador entre colchetes ou "5534XXXXXXXXX" aparece no site público.
 
 ---
@@ -493,4 +517,67 @@ Criar uma Política de Privacidade adequada à LGPD.
 Garantir que fotografias, vídeos, depoimentos e informações de crianças e adolescentes sejam utilizados apenas com as autorizações e salvaguardas necessárias.
 
 Os formulários devem coletar somente dados necessários para sua finalidade e apresentar informações claras sobre seu tratamento.
+```
+
+### 10. Homenagem ao padrinho (enviado em 14/10/2026, 16:36 e 16:37)
+
+```text
+QUANDO ALGUÉM ACREDITA EM UM SONHO
+
+Uma amizade que nasceu no tatame. Uma parceria construída sobre um propósito.
+
+Cristiano Caporezzo
+
+Padrinho e apoiador do Instituto Khuririm
+
+Algumas parcerias não começam com grandes projetos, mas com encontros que Deus prepara ao longo da nossa caminhada.
+
+Em 2019, quando Cristiano Caporezzo ainda se preparava para disputar uma vaga na Câmara Municipal de Uberlândia, sua história se cruzou com a de Anderson Khuririm através do jiu-jítsu.
+
+Khuririm  era professor de seu filho, e foi dessa convivência que nasceu uma relação de confiança.
+
+Naquela época, Khuririm  já dedicava anos de sua vida ao trabalho com crianças através do esporte. Durante uma conversa, compartilhou com Caporezzo  um sonho que carregava no coração: ampliar esse trabalho e alcançar cada vez mais crianças e adolescentes, oferecendo oportunidades de transformação por meio do esporte, da educação e da formação de princípios e valores.
+
+Caporezzo ouviu aquele sonho e, de imediato, comprometeu-se a ajudar a realizá-lo.
+
+Desde então, tornou-se um importante apoiador e padrinho do projeto, contribuindo para o fortalecimento dessa missão.
+
+UMA MENSAGEM DO FUNDADOR
+
+“Em 2019, compartilhei com Caporezzo um sonho que Deus havia colocado no meu coração muitos anos antes.
+
+Naquele momento, ele ainda estava construindo sua trajetória política, mas não hesitou em oferecer sua ajuda.
+
+O tempo passou, muita coisa mudou, mas a importância daquela conversa permanece.
+
+Sou grato a Deus pelas pessoas que Ele coloca em nosso caminho e ao Caporezzo por acreditar nesse propósito.
+
+Meu desejo é que aquilo que começou como um sonho possa alcançar milhares de crianças por todo o Brasil.
+
+Que a nossa caminhada seja lembrada não pelos cargos ou pelas conquistas pessoais, mas pelas vidas que conseguimos transformar.”
+
+Anderson Khuririm
+Fundador do Instituto Khuririm
+```
+
+```text
+Onde colocar a homenagem ao Cristiano Caporezzo?
+
+Entrei novamente no site e identifiquei o local adequado.
+
+1. Acesse o site e clique em “Quem somos”.
+2. Localize a seção “Apresentação do Fundador”, onde aparece seu nome, Anderson Khuririm.
+3. Logo abaixo dessa apresentação, peça ao desenvolvedor para criar uma seção exclusiva com o título:
+
+QUANDO ALGUÉM ACREDITA EM UM SONHO
+
+Uma amizade que nasceu no tatame. Uma parceria construída sobre um propósito.
+
+Cristiano Caporezzo — Padrinho e apoiador do Instituto Khuririm
+
+Nesse espaço entram a fotografia de vocês e o texto completo que elaboramos.
+
+A homenagem deve ficar antes da seção “Nossos Programas”.
+
+Assim, o visitante conhecerá primeiro a história do Instituto, depois seu fundador e, em seguida, a história da parceria que ajudou a fortalecer esse sonho.
 ```
