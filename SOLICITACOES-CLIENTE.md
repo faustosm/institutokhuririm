@@ -285,6 +285,21 @@ Legenda de status:
 
 ---
 
+## Itens que não serão pedidos ao cliente
+
+Decisão do Fausto em 14/10/2026. Não cobrar estes itens na revisão final:
+
+- Logo oficial em arquivo vetorial (SVG/PDF). Fica a logo atual.
+- Vídeo no YouTube. Fica o link para o reel do Instagram.
+- Confirmação de autorização de uso de imagem das crianças nas fotos.
+- Aprovação dos títulos em caixa normal (em vez de caixa-alta).
+- Aprovação do rótulo "HOMENAGEM", da legenda "Cristiano Caporezzo · padrinho e apoiador" e autorização escrita de uso da imagem dele.
+- Versão em inglês.
+- Política de Privacidade (LGPD): contato para dados pessoais e revisão jurídica.
+- Acesso ao Google do instituto para o Search Console.
+
+---
+
 ## Outras pendências gerais
 
 - Textos com marcadores ainda no site: nome completo e graduação do professor, horários das turmas, dias da semana, endereço do treino, e-mail (`[E-MAIL DO INSTITUTO]`), mapa do local (`[MAPA DO LOCAL DE TREINO]`) e CNPJ no rodapé.
