@@ -226,6 +226,29 @@ Legenda de status:
 
 ---
 
+## 11. Dados e materiais enviados (foto do fundador, PIX, CNPJ, vídeo, e-mail)
+
+**Status:** Implementado em parte. PIX e CNPJ aguardam confirmação.
+
+**Pedido:** usar a foto "Foto perfil fubdador", preencher favorecido, chave PIX, CNPJ e banco, incluir o vídeo institucional (reel do Instagram) e remover o e-mail do site, porque o instituto ainda não tem.
+
+**Feito em 14/10/2026:**
+- Foto do fundador publicada na seção "Uma vida dedicada a formar pessoas." (`fundador.webp`, com versão de 600 px).
+- Vídeo: botão "Assistir ao vídeo institucional no Instagram", que abre o reel. O link foi limpo do parâmetro de rastreamento (`?srtk=...`). Não foi incorporado (embed) porque o player do Instagram carrega rastreadores de terceiros (LGPD) e exigiria liberar o Instagram na política de segurança.
+- E-mail removido da seção Contato.
+
+**Não publicado (aguardando confirmação):**
+- **CNPJ 28.762.457/0001-52:** consulta pública (cnpj.ws, 14/10/2026) mostra razão social "28.762.457 ANDERSON ROSA TEIXEIRA", natureza **Empresário (Individual)**, nome fantasia "AK DOJO JIUJITSU ESCOLA", atividade "Ensino de esportes", ativa, Uberlândia/MG. **Não é CNPJ de OSC/associação.** O site diz "Instituto Khuririm · OSC · CNPJ" no rodapé e tem "CNPJ" na seção Transparência como dado da instituição. Publicar esse número ali apresentaria a academia como se fosse o instituto.
+- **PIX "99200-0208" / favorecido "Ak Dojo Jiujistu Escola" / Banco C6:** a conta é da academia (mesmo CNPJ). O site dizia "Pagamento direto na conta do instituto". Além disso, a chave parece um celular **sem DDD**; chave de celular precisa de DDD para funcionar.
+
+**Confirmar com o cliente:**
+- O Instituto Khuririm já tem CNPJ próprio (associação/OSC)? Se ainda não, o rodapé deve deixar de dizer "OSC · CNPJ" até o registro sair?
+- As doações devem mesmo cair na conta da AK Dojo Jiujitsu Escola? Se sim, o texto da doação precisa dizer isso claramente (ex.: "conta da AK Dojo Jiujitsu Escola, que mantém o projeto"), e não "conta do instituto".
+- A chave PIX completa, com DDD. É (34) 99200-0208?
+- O vídeo pode ficar como link para o Instagram, ou preferem enviar o arquivo / um link do YouTube para tocar dentro do site?
+
+---
+
 ## Outras pendências gerais
 
 - Textos com marcadores ainda no site: nome completo e graduação do professor, horários das turmas, dias da semana, endereço do treino, e-mail (`[E-MAIL DO INSTITUTO]`), mapa do local (`[MAPA DO LOCAL DE TREINO]`) e CNPJ no rodapé.
@@ -248,6 +271,7 @@ Legenda de status:
 - [ ] Extra (apoiador) publicado, com confirmação escrita.
 - [ ] Ponto 9 implementado (itens 1 a 9 acima) e revisado.
 - [x] Ponto 10 (homenagem) publicado, com a foto dos dois.
+- [ ] Ponto 11: CNPJ e PIX publicados só depois de confirmar de quem é a conta e a chave com DDD.
 - [ ] Nenhum marcador entre colchetes ou "5534XXXXXXXXX" aparece no site público.
 
 ---
@@ -578,4 +602,31 @@ Nesse espaço entram a fotografia de vocês e o texto completo que elaboramos.
 A homenagem deve ficar antes da seção “Nossos Programas”.
 
 Assim, o visitante conhecerá primeiro a história do Instituto, depois seu fundador e, em seguida, a história da parceria que ajudou a fortalecer esse sonho.
+```
+
+### 11. Dados e materiais (enviado em 14/10/2026, repassado pelo Fausto)
+
+```text
+nome da foto Foto perfil fubdador.
+
+Nome Ak Dojo Jiujistu Escola
+
+chave pix 99200-0208
+
+cnpn
+
+28.762.457/0001-52
+
+Banco C6 S.A
+
+------------------------------------------------------------------------
+
+link do video institucional
+peguei somente do instagram que era o que tinha
+
+https://www.instagram.com/reel/DedOoGSg82r/?srtk=aWlxdWl6YXN6NDQ3
+
+------------------------------------------------------------------------
+
+remova a parte do email ainda não temos
 ```
