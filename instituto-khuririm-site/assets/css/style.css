@@ -191,8 +191,11 @@ p { margin: 0; }
 .sponsors-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; }
 .sponsors-grid img { max-height: 64px; width: auto; margin: 0 auto; filter: grayscale(1); opacity: .85; transition: filter .2s, opacity .2s; }
 .sponsors-grid a:hover img { filter: none; opacity: 1; }
+.sponsor-card { margin: 0; border-radius: 12px; overflow: hidden; background: var(--branco); }
+.sponsor-card img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; max-height: none; filter: none; opacity: 1; }
+.sponsor-card figcaption { padding: 10px 12px; font-size: 14px; font-weight: 600; color: var(--azul); text-align: center; }
 .sponsor-ph {
-  height: 88px; border: 2px dashed var(--azul-gelo); border-radius: 12px;
+  height: auto; min-height: 88px; border: 2px dashed var(--azul-gelo); border-radius: 12px;
   display: flex; align-items: center; justify-content: center; color: var(--ardosia); font-size: 14px;
 }
 
