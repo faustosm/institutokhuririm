@@ -3,21 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Instituto Khuririm · Desenvolvimento humano pelo esporte</title>
-  <meta name="description" content="OSC de Uberlândia-MG que oferece aulas gratuitas de jiu-jitsu para crianças e jovens. Esporte, disciplina e valores para construir novas possibilidades.">
+  <title>Instituto Khuririm · Transformando vidas. Construindo futuros.</title>
+  <meta name="description" content="OSC de Uberlândia-MG que usa o esporte, a educação e o desenvolvimento socioemocional para transformar a vida de crianças e adolescentes.">
   <meta name="theme-color" content="#02274B">
+  <link rel="canonical" href="https://institutokhuririm.com.br/">
 
-  <!-- Open Graph (compartilhamento no WhatsApp/Instagram) -->
-  <meta property="og:title" content="Instituto Khuririm">
-  <meta property="og:description" content="Pessoas mais fortes. Sociedade melhor. Aulas gratuitas de jiu-jitsu em Uberlândia-MG.">
-  <meta property="og:image" content="assets/img/logo-completa.png">
+  <!-- Compartilhamento (WhatsApp, Instagram, Facebook, LinkedIn, X) -->
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Instituto Khuririm">
   <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://institutokhuririm.com.br/">
+  <meta property="og:title" content="Instituto Khuririm · Transformando vidas. Construindo futuros.">
+  <meta property="og:description" content="Esporte, educação e desenvolvimento socioemocional para crianças e adolescentes em Uberlândia-MG.">
+  <meta property="og:image" content="https://institutokhuririm.com.br/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Professores e alunos graduados do Instituto Khuririm no tatame">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" href="assets/img/logo-simbolo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Instituto Khuririm",
+    "url": "https://institutokhuririm.com.br/",
+    "logo": "https://institutokhuririm.com.br/assets/img/logo-completa.png",
+    "description": "OSC de Uberlândia-MG que usa o esporte, a educação e o desenvolvimento socioemocional para transformar a vida de crianças e adolescentes.",
+    "founder": { "@type": "Person", "name": "Anderson Khuririm" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Uberlândia", "addressRegion": "MG", "addressCountry": "BR" },
+    "sameAs": ["https://www.instagram.com/institutokhuririm/"]
+  }
+  </script>
+  <link rel="preload" href="assets/fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/img/primeira-foto.webp" imagesrcset="assets/img/primeira-foto-600.webp 600w, assets/img/primeira-foto.webp 1200w" imagesizes="(max-width: 860px) 100vw, 560px" fetchpriority="high">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -25,20 +46,20 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#inicio" class="brand" aria-label="Instituto Khuririm, início">
-        <img src="assets/img/logo-simbolo.png" alt="" width="48" height="42">
-        <span class="brand-text"><span class="brand-small">INSTITUTO</span><span class="brand-big">KHURIRIM</span></span>
+      <a href="#inicio" class="brand">
+        <img src="assets/img/logo-simbolo.webp" alt="" width="48" height="42">
+        <span class="brand-text"><span class="brand-small">INSTITUTO</span> <span class="brand-big">KHURIRIM</span></span>
       </a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
         <span></span><span></span><span></span>
       </button>
       <nav id="menu" class="nav" aria-label="Principal">
-        <a href="#sobre">Sobre</a>
-        <a href="#aulas">Aulas</a>
-        <a href="#valores">Valores</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#contato">Contato</a>
-        <a href="#apoie" class="btn btn-yellow btn-sm">Quero apoiar</a>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Quem somos</a>
+        <a href="#programas">Nossos programas</a>
+        <a href="#transparencia">Transparência</a>
+        <a href="#apoie">Apoie</a>
+        <a href="#contato" class="btn btn-yellow btn-sm">Contato</a>
       </nav>
     </div>
   </header>
@@ -53,8 +74,6 @@
           <h1>Transformando vidas. <span class="hl">Construindo futuros.</span></h1>
           <div class="hero-lead">
             <p>Acreditamos que toda criança merece uma oportunidade de construir um futuro melhor.</p>
-            <p>No Instituto Khuririm, utilizamos o esporte, a educação e o desenvolvimento socioemocional como ferramentas para transformar realidades, fortalecer princípios e valores e abrir novos caminhos para crianças e adolescentes.</p>
-            <p>Mais do que ensinar uma modalidade esportiva, queremos formar pessoas preparadas para os desafios da vida.</p>
             <p>O esporte é o começo. A transformação vai muito além do tatame.</p>
           </div>
           <div class="actions">
@@ -64,7 +83,7 @@
         </div>
         <div class="hero-media">
           <span class="hero-corner" aria-hidden="true"></span>
-          <img src="assets/img/primeira-foto.jpg" alt="Alunos do Instituto Khuririm no tatame" width="560" height="700">
+          <img src="assets/img/primeira-foto.webp" srcset="assets/img/primeira-foto-600.webp 600w, assets/img/primeira-foto.webp 1200w" sizes="(max-width: 860px) 100vw, 560px" alt="Professor do Instituto Khuririm tira uma selfie com crianças de kimono no tatame" width="560" height="700" fetchpriority="high">
         </div>
       </div>
     </section>
@@ -80,7 +99,7 @@
     <section id="sobre" class="section">
       <div class="container split">
         <div class="split-media">
-          <img src="assets/img/sobre.jpg" alt="Foto do Instituto Khuririm" width="480" height="600" loading="lazy">
+          <img src="assets/img/sobre.webp" srcset="assets/img/sobre-600.webp 600w, assets/img/sobre.webp 1200w" sizes="(max-width: 860px) 100vw, 480px" alt="Professor faixa-preta com duas alunas de kimono diante do logotipo da academia" width="480" height="600" loading="lazy">
         </div>
         <div class="split-text">
           <p class="kicker">NOSSA HISTÓRIA</p>
@@ -100,6 +119,46 @@
       </div>
     </section>
 
+    <!-- VALORES -->
+    <section id="missao" class="section section-mist">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">MISSÃO E VISÃO</p>
+          <h2>Para que existimos e aonde queremos chegar.</h2>
+          <p>No Instituto Khuririm, utilizamos o esporte, a educação e o desenvolvimento socioemocional como ferramentas para transformar realidades, fortalecer princípios e valores e abrir novos caminhos para crianças e adolescentes.</p>
+          <p>Mais do que ensinar uma modalidade esportiva, queremos formar pessoas preparadas para os desafios da vida.</p>
+        </header>
+        <div class="mv">
+          <article class="mv-card">
+            <h3>Nossa missão</h3>
+            <p>Promover o desenvolvimento humano e a transformação social de crianças e adolescentes por meio do esporte, da educação e do fortalecimento das competências socioemocionais, proporcionando oportunidades de crescimento pessoal e construção de um futuro melhor.</p>
+          </article>
+          <article class="mv-card">
+            <h3>Nossa visão</h3>
+            <p>Ser uma instituição de referência em desenvolvimento humano e formação esportiva, reconhecida pela capacidade de transformar realidades, fortalecer famílias e gerar impacto social positivo nas comunidades em que atua.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="valores" class="section section-dark">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker kicker-yellow">MAIS QUE TÉCNICA</p>
+          <h2>Valores que a gente leva do tatame para a vida.</h2>
+        </header>
+        <div class="values">
+          <div class="value"><h3>Fé</h3><p>Acreditamos em um propósito maior, fundamentado no amor a Deus e ao próximo.</p></div>
+          <div class="value"><h3>Respeito</h3><p>Reconhecemos a dignidade e o valor de cada pessoa.</p></div>
+          <div class="value"><h3>Disciplina</h3><p>Ensinamos que compromisso e constância são fundamentais para o crescimento.</p></div>
+          <div class="value"><h3>Integridade</h3><p>Agimos com honestidade, responsabilidade e transparência.</p></div>
+          <div class="value"><h3>Empatia</h3><p>Acolhemos cada pessoa, respeitando suas necessidades e sua história.</p></div>
+          <div class="value"><h3>Perseverança</h3><p>Ensinamos que dificuldades podem ser superadas com dedicação e coragem.</p></div>
+          <div class="value"><h3>Solidariedade</h3><p>Acreditamos no poder de servir e transformar a vida do próximo.</p></div>
+        </div>
+      </div>
+    </section>
+
     <!-- AULAS -->
     <section id="fundador" class="section section-mist">
       <div class="container split">
@@ -114,6 +173,37 @@
           <p>Sua visão parte de um princípio: o esporte pode ser uma poderosa ferramenta de educação, acolhimento e transformação social.</p>
           <p>O Instituto representa a continuidade dessa missão, reunindo pessoas, profissionais, voluntários e parceiros comprometidos com a construção de novas oportunidades.</p>
           <div class="founder-video">[VÍDEO INSTITUCIONAL BREVE, a incluir]</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="programas" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">NOSSOS PROGRAMAS</p>
+          <h2>Cinco caminhos. Um único propósito: transformar vidas.</h2>
+        </header>
+        <div class="programs">
+          <article class="mv-card">
+            <h3>Jiu-jítsu: esporte e formação de caráter</h3>
+            <p>O jiu-jítsu é uma das principais ferramentas de transformação utilizadas pelo Instituto.</p><p>Por meio do esporte, crianças e adolescentes desenvolvem disciplina, respeito, autocontrole, confiança, responsabilidade e capacidade de superar desafios.</p><p>Nosso trabalho não se limita à formação esportiva. Buscamos ensinar valores que acompanharão nossos alunos por toda a vida.</p>
+          </article>
+          <article class="mv-card">
+            <h3>Desenvolvimento socioemocional</h3>
+            <p>Acreditamos que o desenvolvimento emocional é tão importante quanto o físico e o intelectual.</p><p>Por isso, trabalhamos competências como autoconhecimento, empatia, respeito, convivência, comunicação, responsabilidade e inteligência emocional.</p><p>Nosso objetivo é contribuir para que crianças e adolescentes aprendam a reconhecer suas emoções, construir relacionamentos saudáveis e enfrentar os desafios cotidianos.</p>
+          </article>
+          <article class="mv-card">
+            <h3>Inglês: conhecimento que abre portas</h3>
+            <p>O acesso à educação amplia horizontes e cria possibilidades.</p><p>Por meio do ensino da língua inglesa, buscamos oferecer novas oportunidades de aprendizagem, desenvolvimento cultural e preparação para o futuro.</p>
+          </article>
+          <article class="mv-card">
+            <h3>Espanhol: ampliando horizontes</h3>
+            <p>Aprender um novo idioma também significa conhecer novas culturas e ampliar as possibilidades de comunicação.</p><p>As atividades de língua espanhola contribuem para a formação educacional e cultural dos participantes.</p>
+          </article>
+          <article class="mv-card">
+            <h3>Acompanhamento psicológico</h3>
+            <p>Com o apoio de profissionais habilitados, buscamos oferecer acolhimento, orientação e acompanhamento psicológico, contribuindo para o bem-estar emocional e o desenvolvimento saudável dos participantes.</p><p>Entendemos que cuidar das emoções também faz parte da construção de um futuro melhor.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -150,75 +240,6 @@
       </div>
     </section>
 
-    <!-- VALORES -->
-    <section id="missao" class="section section-mist">
-      <div class="container">
-        <header class="section-head">
-          <p class="kicker">QUEM SOMOS</p>
-          <h2>Para que existimos e aonde queremos chegar.</h2>
-        </header>
-        <div class="mv">
-          <article class="mv-card">
-            <h3>Nossa missão</h3>
-            <p>Promover o desenvolvimento humano e a transformação social de crianças e adolescentes por meio do esporte, da educação e do fortalecimento das competências socioemocionais, proporcionando oportunidades de crescimento pessoal e construção de um futuro melhor.</p>
-          </article>
-          <article class="mv-card">
-            <h3>Nossa visão</h3>
-            <p>Ser uma instituição de referência em desenvolvimento humano e formação esportiva, reconhecida pela capacidade de transformar realidades, fortalecer famílias e gerar impacto social positivo nas comunidades em que atua.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="valores" class="section section-dark">
-      <div class="container">
-        <header class="section-head">
-          <p class="kicker kicker-yellow">MAIS QUE TÉCNICA</p>
-          <h2>Valores que a gente leva do tatame para a vida.</h2>
-        </header>
-        <div class="values">
-          <div class="value"><h3>Fé</h3><p>Acreditamos em um propósito maior, fundamentado no amor a Deus e ao próximo.</p></div>
-          <div class="value"><h3>Respeito</h3><p>Reconhecemos a dignidade e o valor de cada pessoa.</p></div>
-          <div class="value"><h3>Disciplina</h3><p>Ensinamos que compromisso e constância são fundamentais para o crescimento.</p></div>
-          <div class="value"><h3>Integridade</h3><p>Agimos com honestidade, responsabilidade e transparência.</p></div>
-          <div class="value"><h3>Empatia</h3><p>Acolhemos cada pessoa, respeitando suas necessidades e sua história.</p></div>
-          <div class="value"><h3>Perseverança</h3><p>Ensinamos que dificuldades podem ser superadas com dedicação e coragem.</p></div>
-          <div class="value"><h3>Solidariedade</h3><p>Acreditamos no poder de servir e transformar a vida do próximo.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="programas" class="section">
-      <div class="container">
-        <header class="section-head">
-          <p class="kicker">NOSSOS PROGRAMAS</p>
-          <h2>Cinco caminhos. Um único propósito: transformar vidas.</h2>
-        </header>
-        <div class="programs">
-          <article class="mv-card">
-            <h3>Jiu-jítsu: esporte e formação de caráter</h3>
-            <p>O jiu-jítsu é uma das principais ferramentas de transformação utilizadas pelo Instituto.</p><p>Por meio do esporte, crianças e adolescentes desenvolvem disciplina, respeito, autocontrole, confiança, responsabilidade e capacidade de superar desafios.</p><p>Nosso trabalho não se limita à formação esportiva. Buscamos ensinar valores que acompanharão nossos alunos por toda a vida.</p>
-          </article>
-          <article class="mv-card">
-            <h3>Desenvolvimento socioemocional</h3>
-            <p>Acreditamos que o desenvolvimento emocional é tão importante quanto o físico e o intelectual.</p><p>Por isso, trabalhamos competências como autoconhecimento, empatia, respeito, convivência, comunicação, responsabilidade e inteligência emocional.</p><p>Nosso objetivo é contribuir para que crianças e adolescentes aprendam a reconhecer suas emoções, construir relacionamentos saudáveis e enfrentar os desafios cotidianos.</p>
-          </article>
-          <article class="mv-card">
-            <h3>Inglês: conhecimento que abre portas</h3>
-            <p>O acesso à educação amplia horizontes e cria possibilidades.</p><p>Por meio do ensino da língua inglesa, buscamos oferecer novas oportunidades de aprendizagem, desenvolvimento cultural e preparação para o futuro.</p>
-          </article>
-          <article class="mv-card">
-            <h3>Espanhol: ampliando horizontes</h3>
-            <p>Aprender um novo idioma também significa conhecer novas culturas e ampliar as possibilidades de comunicação.</p><p>As atividades de língua espanhola contribuem para a formação educacional e cultural dos participantes.</p>
-          </article>
-          <article class="mv-card">
-            <h3>Acompanhamento psicológico</h3>
-            <p>Com o apoio de profissionais habilitados, buscamos oferecer acolhimento, orientação e acompanhamento psicológico, contribuindo para o bem-estar emocional e o desenvolvimento saudável dos participantes.</p><p>Entendemos que cuidar das emoções também faz parte da construção de um futuro melhor.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <!-- GALERIA: para trocar fotos, substitua os arquivos em assets/img/ ou adicione novos <img> -->
     <section id="galeria" class="section">
       <div class="container">
@@ -230,11 +251,33 @@
           <a href="https://www.instagram.com/institutokhuririm/" target="_blank" rel="noopener">Ver mais no Instagram @institutokhuririm</a>
         </header>
         <div class="gallery">
-          <img src="assets/img/galeria-1.jpg" alt="Foto da galeria do Instituto Khuririm 1" loading="lazy">
-          <img src="assets/img/galeria-2.jpg" alt="Foto da galeria do Instituto Khuririm 2" loading="lazy">
-          <img src="assets/img/galeria-3.jpg" alt="Foto da galeria do Instituto Khuririm 3" loading="lazy">
-          <img src="assets/img/galeria-4.jpg" alt="Foto da galeria do Instituto Khuririm 4" loading="lazy">
+          <img src="assets/img/galeria-1.webp" srcset="assets/img/galeria-1-600.webp 600w, assets/img/galeria-1.webp 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 300px" alt="Professor e alunos do instituto posam juntos diante do logotipo da academia" width="480" height="600" loading="lazy">
+          <img src="assets/img/galeria-2.webp" srcset="assets/img/galeria-2-600.webp 600w, assets/img/galeria-2.webp 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 300px" alt="Turma grande de alunos de kimono sentados no tatame" width="480" height="600" loading="lazy">
+          <img src="assets/img/galeria-3.webp" srcset="assets/img/galeria-3-600.webp 600w, assets/img/galeria-3.webp 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 300px" alt="Professores e alunos graduados do instituto, de kimono, lado a lado no tatame" width="480" height="600" loading="lazy">
+          <img src="assets/img/galeria-4.webp" srcset="assets/img/galeria-4-600.webp 600w, assets/img/galeria-4.webp 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 300px" alt="Professor sorridente com crianças de kimono em uma selfie" width="480" height="600" loading="lazy">
         </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="transparencia" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">TRANSPARÊNCIA E RESPONSABILIDADE</p>
+          <h2>Compromisso, responsabilidade e confiança.</h2>
+          <p>O Instituto Khuririm acredita que transformar vidas exige compromisso, responsabilidade e confiança.</p>
+          <p>Por isso, valorizamos a transparência em nossas atividades, projetos, parcerias e na utilização dos recursos recebidos.</p>
+        </header>
+        <dl class="transp">
+            <div><dt>Nome jurídico completo</dt><dd>[RAZÃO SOCIAL COMPLETA, conforme cadastro oficial]</dd></div>
+            <div><dt>CNPJ</dt><dd>[CNPJ]</dd></div>
+            <div><dt>Estatuto social atualizado</dt><dd><a href="[LINK DO ESTATUTO]">[ver estatuto]</a></dd></div>
+            <div><dt>Diretoria</dt><dd>[NOMES E CARGOS DA DIRETORIA]</dd></div>
+            <div><dt>Liderança responsável</dt><dd>[NOME E FUNÇÃO DO RESPONSÁVEL]</dd></div>
+            <div><dt>Relatórios de atividades</dt><dd><a href="[LINK DOS RELATÓRIOS]">[ver relatórios]</a></dd></div>
+            <div><dt>Prestações de contas</dt><dd><a href="[LINK DAS PRESTAÇÕES DE CONTAS]">[ver prestações de contas]</a></dd></div>
+            <div><dt>Parceiros e apoiadores autorizados</dt><dd>[LISTA DE PARCEIROS AUTORIZADOS, veja também Quem apoia]</dd></div>
+        </dl>
       </div>
     </section>
 
@@ -281,34 +324,12 @@
         <div class="sponsors">
           <p class="kicker kicker-muted">QUEM APOIA</p>
           <div class="sponsors-grid">
-            <figure class="sponsor-card"><img src="assets/img/apoiador-1.jpg" alt="Caporezzo, deputado federal" loading="lazy"><figcaption>Apoiador · Caporezzo, deputado federal</figcaption></figure>
+            <figure class="sponsor-card"><img src="assets/img/apoiador-1.webp" alt="Caporezzo, deputado federal" width="350" height="350" loading="lazy"><figcaption>Apoiador · Caporezzo, deputado federal</figcaption></figure>
             <div class="sponsor-ph">[LOGO PARCEIRO]</div>
             <div class="sponsor-ph">[LOGO PARCEIRO]</div>
             <div class="sponsor-ph">[LOGO PARCEIRO]</div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- CONTATO -->
-    <section id="transparencia" class="section">
-      <div class="container">
-        <header class="section-head">
-          <p class="kicker">TRANSPARÊNCIA E RESPONSABILIDADE</p>
-          <h2>Compromisso, responsabilidade e confiança.</h2>
-          <p>O Instituto Khuririm acredita que transformar vidas exige compromisso, responsabilidade e confiança.</p>
-          <p>Por isso, valorizamos a transparência em nossas atividades, projetos, parcerias e na utilização dos recursos recebidos.</p>
-        </header>
-        <dl class="transp">
-            <div><dt>Nome jurídico completo</dt><dd>[RAZÃO SOCIAL COMPLETA, conforme cadastro oficial]</dd></div>
-            <div><dt>CNPJ</dt><dd>[CNPJ]</dd></div>
-            <div><dt>Estatuto social atualizado</dt><dd><a href="[LINK DO ESTATUTO]">[ver estatuto]</a></dd></div>
-            <div><dt>Diretoria</dt><dd>[NOMES E CARGOS DA DIRETORIA]</dd></div>
-            <div><dt>Liderança responsável</dt><dd>[NOME E FUNÇÃO DO RESPONSÁVEL]</dd></div>
-            <div><dt>Relatórios de atividades</dt><dd><a href="[LINK DOS RELATÓRIOS]">[ver relatórios]</a></dd></div>
-            <div><dt>Prestações de contas</dt><dd><a href="[LINK DAS PRESTAÇÕES DE CONTAS]">[ver prestações de contas]</a></dd></div>
-            <div><dt>Parceiros e apoiadores autorizados</dt><dd>[LISTA DE PARCEIROS AUTORIZADOS, veja também Quem apoia]</dd></div>
-        </dl>
       </div>
     </section>
 
@@ -337,7 +358,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-top">
-        <img src="assets/img/logo-completa.png" alt="Instituto Khuririm" width="180" height="154" loading="lazy">
+        <img src="assets/img/logo-completa.webp" alt="Instituto Khuririm" width="180" height="154" loading="lazy">
         <div>
           <p class="footer-slogan">Pessoas mais fortes. <span class="hl">Sociedade melhor.</span></p>
           <p class="footer-sub">Desenvolvimento humano pelo esporte.</p>

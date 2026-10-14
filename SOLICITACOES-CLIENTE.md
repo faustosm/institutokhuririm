@@ -20,12 +20,13 @@ Legenda de status:
 
 **Feito:**
 - Título em caixa normal ("Transformando vidas. Construindo futuros."), com "Construindo futuros." em amarelo.
-- Quatro parágrafos no hero.
+- No hero ficaram o 1º e o 4º parágrafos ("Acreditamos que toda criança..." e "O esporte é o começo..."). O 2º e o 3º foram para a abertura da seção "Missão e visão", para atender ao ponto 9 (evitar textos longos na página inicial).
 - Saiu o texto antigo "Aulas gratuitas de jiu-jítsu para crianças e jovens...".
 
 **Confirmar com o cliente:**
 - Pode ser em caixa normal, ou quer caixa-alta como enviou?
 - Pode sair do topo a frase sobre aulas gratuitas?
+- Aprova a divisão do texto de apresentação entre o topo e a seção "Missão e visão"?
 
 ---
 
@@ -52,12 +53,12 @@ Legenda de status:
 **Pedido:** missão, visão e sete valores.
 
 **Feito:**
-- Nova seção "Quem somos", com cartões de missão e visão. O título "Para que existimos e aonde queremos chegar." foi criado por nós, não veio do cliente.
+- Nova seção "Missão e visão", com cartões de missão e visão. O título "Para que existimos e aonde queremos chegar." foi criado por nós, não veio do cliente.
 - Os sete valores enviados substituíram os quatro antigos.
 - Saiu a lista de palavras soltas (Coragem, Perseverança, Determinação...).
 
 **Confirmar com o cliente:**
-- Aprova o título da seção "Quem somos"?
+- Aprova o título "Para que existimos e aonde queremos chegar."?
 - Pode sair a lista de palavras soltas?
 
 ---
@@ -166,49 +167,41 @@ Legenda de status:
 
 ## 9. Ajustes visuais, funcionais, técnicos e de privacidade
 
-**Status:** Recebido, em avaliação. Ainda não implementado.
+**Status:** Implementado, com pendências (parte técnica feita; itens que dependem do cliente em aberto).
 
-**Pedido (resumo):** acabamento visual profissional com a identidade atual, logo oficial, menu INÍCIO | QUEM SOMOS | NOSSOS PROGRAMAS | IMPACTO SOCIAL | TRANSPARÊNCIA | APOIE | CONTATO, funcionamento em celular, tablet e computador, velocidade, acessibilidade, SEO, compartilhamento, sitemap, análise de acesso, versão em inglês, Política de Privacidade (LGPD) e cuidados com dados e imagens de crianças.
+**Feito em 14/10/2026:**
+- **Menu:** Início · Quem somos · Nossos programas · Transparência · Apoie · Contato. "Impacto social" ficou de fora porque não há conteúdo para essa seção.
+- **Ordem das seções** segue o menu: Início → Nossa história → Missão e visão → Valores → Fundador → Programas → Aulas → Galeria → Transparência → Apoie → Contato.
+- **Página inicial mais curta:** o hero ficou com o título, dois parágrafos curtos e os botões.
+- **Fotos:** convertidas para WebP, com versões de 600 px para celular. A foto `galeria-4` era um print do Instagram com ícones do app nos cantos; a faixa com os ícones foi recortada.
+- **Logos** reduzidas ao tamanho de exibição (de cerca de 250 KB para 29 KB), mantendo as proporções. Favicon e ícone para iPhone criados.
+- **Fontes** hospedadas no próprio site, sem chamar o Google. Melhora velocidade e evita enviar o IP dos visitantes ao Google (LGPD).
+- **SEO:** novo título e descrição, link canônico, dados estruturados (schema.org, tipo ONG), `sitemap.xml` e `robots.txt`.
+- **Compartilhamento:** imagem de prévia 1200×630 com a foto dos professores (só adultos, por cautela com imagem de crianças), título e descrição para WhatsApp, Facebook, LinkedIn e X.
+- **Segurança:** cabeçalhos HTTP (Content-Security-Policy, HSTS, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, X-Frame-Options) e cache de 7 dias para imagens, CSS e JS.
+- **Arquivos que estavam públicos sem querer** foram tirados do ar: o cartaz original de campanha (`Apoiador 1.jpg`, com slogan e selo de IA) e o `README.md`.
+- **Análise de acesso:** o Cloudflare Web Analytics já estava ativo no domínio. A política de segurança foi ajustada para permitir o script dele. Não usa cookies.
+- **Acessibilidade:** textos alternativos descritivos em todas as fotos e nome acessível da logo corrigido.
+- **Testes em 4 tamanhos** (celular 390 px, tablet 768 px, notebook 1024 px, desktop 1366 px): sem rolagem lateral, sem imagens quebradas, sem erros no console, menu do celular abre, fecha e navega.
+- **Lighthouse (14/10/2026):** celular 98 desempenho, 100 acessibilidade, 100 boas práticas, 100 SEO. Desktop 100 nas quatro.
 
-**Situação atual do site:**
-- Menu atual: Sobre, Aulas, Valores, Galeria, Contato e Quero apoiar. Não tem "Quem somos", "Nossos programas", "Impacto social" nem "Transparência".
-- Não há seção "Impacto social" e o cliente não enviou conteúdo para ela.
-- Título e descrição da página e og:title/og:description existem. A og:image aponta para um caminho relativo (`assets/img/logo-completa.png`), que deveria ser absoluto.
-- Textos alternativos das fotos são genéricos.
-- Não há formulário. Os botões levam ao WhatsApp.
-- Não há ferramenta de análise de acesso, sitemap, robots.txt nem Política de Privacidade.
-- O hero ficou com quatro parágrafos. Isso conflita com o pedido de evitar textos longos na página inicial.
-- Só testei o layout em celular (390 px). Tablet e desktop ainda não foram conferidos.
-
-**Pontos que precisam de decisão ou de material do cliente:**
-- Logo oficial: a logo atual veio de print, segundo o README. Para a identidade oficial, precisamos do arquivo vetorial (SVG) com o designer. Também alterei o fundo de `logo-completa.png` para transparente. Isso mexe no arquivo de marca, então o ideal é voltar ao original e pedir o SVG.
-- Impacto social: falta o conteúdo.
-- Versão em inglês: exige tradução de todo o texto e revisão do cliente.
-- Formulário: o pedido fala em formulários, mas o site hoje não tem nenhum. Se for criar, o formulário coleta dados pessoais e precisa de Política de Privacidade.
-- Política de Privacidade (LGPD): posso redigir um modelo, mas precisa ser revisada por um advogado, e depende de quais dados o site coleta.
-- Autorização de imagem de crianças: só o instituto consegue confirmar as autorizações dos responsáveis.
-- Ferramenta de análise: sugiro Cloudflare Web Analytics, que não usa cookies e dispensa banner de cookies. Precisa de uma ativação no painel da conta.
-- Google Search Console e verificação em redes sociais: dependem de login da conta do instituto.
-
-**O que consigo fazer já, sem depender do cliente:**
-1. Ajustar o menu para o pedido (rótulos e âncoras para as seções existentes).
-2. Enxugar o hero, mantendo o início curto e movendo parte do texto para a seção "Quem somos".
-3. Corrigir a og:image para caminho absoluto e completar metas de compartilhamento.
-4. Criar `sitemap.xml` e `robots.txt`.
-5. Adicionar cabeçalhos de segurança (Content-Security-Policy, HSTS, X-Content-Type-Options) via arquivo `_headers` do Cloudflare.
-6. Melhorar textos alternativos das fotos e corrigir contraste onde for necessário.
-7. Otimizar imagens para WebP, com fallback.
-8. Conferir layout em tablet e desktop.
-9. Medir desempenho e acessibilidade com Lighthouse e axe.
-
-**Depende de decisão ou material:** logo em SVG, conteúdo de Impacto social, versão em inglês, formulário, Política de Privacidade revisada, análise de acesso e autorizações de imagem.
+**Pendente (depende do cliente):**
+- **Logo oficial em SVG**, com o designer. A atual veio de print; o fundo da `logo-completa` foi deixado transparente para combinar com o rodapé.
+- **Impacto social:** falta conteúdo (números, depoimentos, ações). Quando chegar, a seção entra no menu.
+- **Versão em inglês:** exige tradução de todo o texto e revisão do cliente.
+- **Formulário:** o site não tem. Se o cliente quiser, ele precisa coletar só o necessário e ter aviso de tratamento de dados.
+- **Política de Privacidade (LGPD):** precisa de texto revisado por advogado e dos dados do controlador (razão social, CNPJ, e-mail de contato para titulares).
+- **Autorizações de imagem** das crianças nas fotos publicadas.
+- **Google Search Console:** precisa de login da conta do instituto para verificar o domínio e enviar o sitemap.
+- **Acompanhamento das interações** (cliques em WhatsApp, PIX etc.): dá para medir com eventos, mas depende da ferramenta escolhida.
 
 **Confirmar com o cliente:**
-- Quer uma seção "Impacto social"? Se sim, quais são os conteúdos?
+- Quer a seção "Impacto social"? Se sim, quais conteúdos?
 - Quer a versão em inglês agora ou depois?
 - Precisa de formulário, ou WhatsApp basta?
-- Tem o arquivo vetorial da logo?
-- Quem pode autorizar a Política de Privacidade e revisar o texto?
+- Tem o arquivo vetorial (SVG) da logo?
+- Quem revisa a Política de Privacidade? Qual e-mail de contato para assuntos de dados pessoais?
+- Quem tem acesso ao Google do instituto para o Search Console?
 
 ---
 
@@ -227,7 +220,7 @@ Legenda de status:
 - [ ] Ponto 2 publicado conforme enviado.
 - [ ] Ponto 3 publicado conforme enviado.
 - [ ] Ponto 4 publicado, com status dos programas confirmado.
-- [ ] Ponto 5: confirmar com o cliente se faltou algum item (não foi enviado).
+- [x] Ponto 5: não existe (confirmado em 14/10/2026).
 - [ ] Ponto 6 publicado, com PIX, favorecido, prestação de contas e WhatsApp.
 - [ ] Ponto 7 publicado, com documentos e dados.
 - [ ] Ponto 8 publicado, com foto e vídeo.
@@ -244,7 +237,7 @@ Recebido em 14/10/2026 pelo WhatsApp (Anderson Khuririm). Os textos estão exata
 Observações sobre o envio:
 
 - O ponto 1 veio sem número. Ele foi tratado como "1. Página inicial".
-- **Não houve ponto 5.** A numeração vai do 4 para o 6. Confirmar com o cliente se faltou algum item.
+- **Não houve ponto 5.** Confirmado em 14/10/2026: a numeração apenas pula do 4 para o 6.
 - Na mensagem reenviada, o ponto 3 veio cortado ("fundamentais para o c…"). O texto abaixo é a versão completa enviada antes.
 
 ### 1. Página inicial
@@ -365,7 +358,7 @@ Observação ao desenvolvedor: apresentar claramente quais programas estão em f
 
 ### 5. (não enviado)
 
-O cliente não enviou um ponto 5.
+O cliente não enviou um ponto 5 (confirmado: não existe).
 
 ### 6. Seja um apoiador — faça parte dessa transformação
 

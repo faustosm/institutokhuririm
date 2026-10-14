@@ -1,3 +1,7 @@
+/* Fontes hospedadas no próprio site (subconjunto latin, fontes variáveis) */
+@font-face { font-family: 'Outfit'; font-style: normal; font-weight: 600 800; font-display: swap; src: url(../fonts/outfit.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(../fonts/dm-sans.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 /* =========================================================
    Instituto Khuririm · estilos
    Tokens vindos do briefing de marca (contraste WCAG AA)
@@ -173,6 +177,8 @@ p { margin: 0; }
 .mv-card p { margin: 0; line-height: 1.6; }
 .founder-ph { aspect-ratio: 4 / 5; border: 2px dashed var(--azul-gelo); border-radius: var(--raio-lg); display: grid; place-items: center; padding: 16px; text-align: center; color: var(--ardosia); font-size: 15px; }
 .founder-video { margin-top: 24px; padding: 28px 16px; border: 2px dashed var(--azul-gelo); border-radius: var(--raio-lg); text-align: center; color: var(--ardosia); font-size: 15px; }
+/* separa duas seções brancas seguidas */
+.section:not(.section-mist):not(.section-dark) + .section:not(.section-mist):not(.section-dark) { border-top: 1px solid var(--gelo); }
 .transp { margin: 0; }
 .transp > div { display: grid; gap: 4px; padding: 16px 0; border-bottom: 1px solid var(--gelo); }
 .transp dt { font-weight: 700; color: var(--azul); }
