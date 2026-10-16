@@ -294,6 +294,7 @@ Legenda de status:
 **Feito em 16/10/2026:**
 - Páginas `/en/` e `/es/` (`instituto-khuririm-site/en/index.html` e `es/index.html`), com todo o conteúdo da página em português traduzido: textos, títulos, menus, textos alternativos das fotos, título e descrição para o Google e para compartilhamento.
 - Seletor **PT · EN · ES** no menu: no computador, ao lado do botão "Contato"; no celular, dentro do menu, abaixo de "Contato". O idioma atual fica em amarelo.
+- Atualizado no mesmo dia, a pedido do Fausto: cada idioma ganhou uma bandeira (Brasil, Estados Unidos e Espanha), desenhada em SVG porque o emoji de bandeira não aparece no Windows. O idioma selecionado fica dentro de uma borda amarela, com fundo destacado. Em telas médias (861 a 1240 px), aparecem só as bandeiras, para caber no menu.
 - O Google entende as três versões como a mesma página em idiomas diferentes (`hreflang` nas páginas e no `sitemap.xml`). O português é o padrão.
 - As mensagens prontas do WhatsApp foram traduzidas para o idioma de cada página.
 - Os botões do menu do celular e o "Copiar chave" do PIX também foram traduzidos.
