@@ -13,6 +13,7 @@ Pedidos, status e pendências ficam em `SOLICITACOES-CLIENTE.md`.
 - **DNS:** domínio comprado no registro.br, com nameservers do Cloudflare (`damien` e `zelda.ns.cloudflare.com`).
 - **Análise de acesso:** Cloudflare Web Analytics, injetado automaticamente pelo Cloudflare (painel: Analytics → Web Analytics). Sem cookies.
 - **Repositório:** `faustosm/institutokhuririm` (privado).
+- **Cópia pública:** `faustosm/institutokhuririm-site`, criada em 16/10/2026 para mostrar o código a terceiros. Tem só o código do site, sem notas do cliente nem histórico. **Não se atualiza sozinha.** Nunca envie para ela `CLAUDE.md`, `SOLICITACOES-CLIENTE.md` nem fotos originais.
 
 ## Estrutura do site
 
