@@ -1,12 +1,20 @@
 // Instituto Khuririm · interações leves (sem dependências)
 (function () {
+  // Textos dos botões em cada idioma (o idioma vem do <html lang>)
+  var textos = {
+    pt: { abrir: 'Abrir menu', fechar: 'Fechar menu', copiado: 'Copiado!', manual: 'Copie manualmente' },
+    en: { abrir: 'Open menu', fechar: 'Close menu', copiado: 'Copied!', manual: 'Copy it manually' },
+    es: { abrir: 'Abrir menú', fechar: 'Cerrar menú', copiado: '¡Copiado!', manual: 'Cópiala manualmente' }
+  };
+  var t = textos[document.documentElement.lang.slice(0, 2)] || textos.pt;
+
   // Menu mobile
   var toggle = document.querySelector('.menu-toggle');
   var nav = document.getElementById('menu');
   if (toggle && nav) {
     var setOpen = function (open) {
       toggle.setAttribute('aria-expanded', String(open));
-      toggle.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+      toggle.setAttribute('aria-label', open ? t.fechar : t.abrir);
       nav.classList.toggle('is-open', open);
     };
     toggle.addEventListener('click', function () {
@@ -31,8 +39,8 @@
         btn.textContent = texto;
         setTimeout(function () { btn.textContent = original; }, 2500);
       };
-      if (!navigator.clipboard) { avisar('Copie manualmente'); return; }
-      navigator.clipboard.writeText(valor).then(function () { avisar('Copiado!'); }, function () { avisar('Copie manualmente'); });
+      if (!navigator.clipboard) { avisar(t.manual); return; }
+      navigator.clipboard.writeText(valor).then(function () { avisar(t.copiado); }, function () { avisar(t.manual); });
     });
   });
 

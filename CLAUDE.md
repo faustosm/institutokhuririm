@@ -17,6 +17,7 @@ Pedidos, status e pendências ficam em `SOLICITACOES-CLIENTE.md`.
 ## Estrutura do site
 
 - `index.html`: todas as seções, nesta ordem: `inicio` → pilares → `sobre` (Nossa história) → `missao` → `valores` → `fundador` → `padrinho` (homenagem) → `programas` → `aulas` → `galeria` → `transparencia` → `apoie` (com "Quem apoia") → `contato`.
+- **Idiomas:** `index.html` (português, padrão), `en/index.html` e `es/index.html`, com seletor PT · EN · ES no menu e `hreflang` nas páginas e no sitemap. **Toda mudança de conteúdo precisa ser feita nos três arquivos.** As páginas em `en/` e `es/` usam caminhos absolutos (`/assets/...`). Os textos dos botões do JS ficam no dicionário `textos` de `main.js`.
 - Menu: Início · Quem somos (`#sobre`) · Nossos programas · Transparência · Apoie · Contato. "Impacto social" foi pedido pelo cliente, mas ainda não tem conteúdo.
 - `assets/css/style.css`: cores como variáveis no topo (`--azul #02274B`, `--amarelo #FDC202`). Fontes Outfit (títulos) e DM Sans (texto), hospedadas em `assets/fonts/`.
 - `assets/js/main.js`: menu do celular, botão de copiar PIX, ano do rodapé e animações `.reveal`.
@@ -42,7 +43,7 @@ Pedidos, status e pendências ficam em `SOLICITACOES-CLIENTE.md`.
 - Não divulgar programa ou serviço como disponível sem confirmação.
 - Atividades psicológicas: sempre citar profissionais habilitados.
 - Fotos de crianças só com autorização dos responsáveis (ECA/LGPD).
-- Pendentes com o cliente: Política de Privacidade (LGPD), versão em inglês, seção "Impacto social", formulário (hoje tudo vai para o WhatsApp), Google Search Console e os dados marcados com `[...]` no site.
+- Pendentes com o cliente: Política de Privacidade (LGPD), revisão da tradução em inglês e espanhol, seção "Impacto social", formulário (hoje tudo vai para o WhatsApp), Google Search Console e os dados marcados com `[...]` no site.
 
 ## Histórico
 

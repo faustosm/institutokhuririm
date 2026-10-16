@@ -2,7 +2,7 @@
 
 Site: https://institutokhuririm.com.br
 Repositório: https://github.com/faustosm/institutokhuririm
-Atualizado em: 14/10/2026
+Atualizado em: 16/10/2026
 
 Legenda de status:
 
@@ -188,7 +188,7 @@ Legenda de status:
 **Pendente (depende do cliente):**
 - **Logo oficial em SVG**, com o designer. A atual veio de print; o fundo da `logo-completa` foi deixado transparente para combinar com o rodapé.
 - **Impacto social:** falta conteúdo (números, depoimentos, ações). Quando chegar, a seção entra no menu.
-- **Versão em inglês:** exige tradução de todo o texto e revisão do cliente.
+- **Versão em inglês:** pedida pelo cliente em 16/10/2026, junto com o espanhol. Ver item 13.
 - **Formulário:** o site não tem. Se o cliente quiser, ele precisa coletar só o necessário e ter aviso de tratamento de dados.
 - **Política de Privacidade (LGPD):** precisa de texto revisado por advogado e dos dados do controlador (razão social, CNPJ, e-mail de contato para titulares).
 - **Autorizações de imagem** das crianças nas fotos publicadas.
@@ -285,6 +285,38 @@ Legenda de status:
 
 ---
 
+## 13. Site em inglês e espanhol (seletor de idioma)
+
+**Status:** Implementado, com pendências (tradução aguarda revisão do cliente).
+
+**Pedido:** versões do site em inglês e espanhol, com o botão de troca de idioma (PT · EN · ES) que outros sites têm. Pedido do Anderson, repassado pelo Fausto em 16/10/2026.
+
+**Feito em 16/10/2026:**
+- Páginas `/en/` e `/es/` (`instituto-khuririm-site/en/index.html` e `es/index.html`), com todo o conteúdo da página em português traduzido: textos, títulos, menus, textos alternativos das fotos, título e descrição para o Google e para compartilhamento.
+- Seletor **PT · EN · ES** no menu: no computador, ao lado do botão "Contato"; no celular, dentro do menu, abaixo de "Contato". O idioma atual fica em amarelo.
+- O Google entende as três versões como a mesma página em idiomas diferentes (`hreflang` nas páginas e no `sitemap.xml`). O português é o padrão.
+- As mensagens prontas do WhatsApp foram traduzidas para o idioma de cada página.
+- Os botões do menu do celular e o "Copiar chave" do PIX também foram traduzidos.
+- Os marcadores `[...]` foram mantidos e traduzidos (ex.: `[AGE RANGE]`, `[RANGO DE EDAD]`).
+
+**Decisões tomadas sem o cliente (podem ser revertidas):**
+- Acrescentado na seção Contato: "Our team speaks Portuguese." / "Nuestro equipo habla portugués.", para o visitante estrangeiro saber em que língua será atendido.
+- No PIX, acrescentada a explicação "PIX é o sistema de pagamentos instantâneos do Brasil" (em inglês e espanhol).
+- No botão do vídeo, acrescentado "(em português)", porque o vídeo no Instagram é em português.
+- No topo, "OSC" virou "NONPROFIT" em inglês; em espanhol ficou "OSC". No rodapé em inglês: "Nonprofit (OSC)".
+- A página 404 continua só em português.
+
+**Pendências:**
+- **Manutenção:** toda mudança de texto passa a ser feita nos três arquivos (`index.html`, `en/index.html`, `es/index.html`).
+- Tradução feita pelo Claude, sem revisão de tradutor humano.
+
+**Confirmar com o cliente:**
+- Pode revisar a tradução (ou pedir para alguém fluente revisar)? Principalmente os textos de fé, da homenagem ao padrinho e do acompanhamento psicológico.
+- O atendimento pelo WhatsApp é só em português? Se alguém da equipe fala inglês ou espanhol, o aviso no Contato muda.
+- Espanhol: prefere o espanhol da América Latina (usado agora, com "tú") ou o da Espanha?
+
+---
+
 ## Itens que não serão pedidos ao cliente
 
 Decisão do Fausto em 14/10/2026. Não cobrar estes itens na revisão final:
@@ -294,7 +326,7 @@ Decisão do Fausto em 14/10/2026. Não cobrar estes itens na revisão final:
 - Confirmação de autorização de uso de imagem das crianças nas fotos.
 - Aprovação dos títulos em caixa normal (em vez de caixa-alta).
 - Aprovação do rótulo "HOMENAGEM", da legenda "Cristiano Caporezzo · padrinho e apoiador" e autorização escrita de uso da imagem dele.
-- Versão em inglês.
+- ~~Versão em inglês.~~ Pedida pelo próprio cliente em 16/10/2026 (item 13).
 - Política de Privacidade (LGPD): contato para dados pessoais e revisão jurídica.
 - Acesso ao Google do instituto para o Search Console.
 
@@ -325,6 +357,7 @@ Decisão do Fausto em 14/10/2026. Não cobrar estes itens na revisão final:
 - [ ] Ponto 11: CNPJ da OSC (rodapé e Transparência) só quando o instituto tiver CNPJ próprio.
 - [ ] Ponto 12: decisões pendentes da revisão geral.
 - [ ] Nenhum marcador entre colchetes aparece no site público.
+- [ ] Ponto 13: tradução em inglês e espanhol revisada pelo cliente.
 
 ---
 
@@ -682,3 +715,7 @@ https://www.instagram.com/reel/DedOoGSg82r/?srtk=aWlxdWl6YXN6NDQ3
 
 remova a parte do email ainda não temos
 ```
+
+### 13. Site em inglês e espanhol (16/10/2026, repassado pelo Fausto)
+
+Não há texto original do cliente. O Fausto informou na conversa: "o Anderson mesmo quem pediu pra adicionar essas duas linguas a mais" (inglês e espanhol, com botão de troca de idioma).
