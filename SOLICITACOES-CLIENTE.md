@@ -310,10 +310,12 @@ Legenda de status:
 - **Manutenção:** toda mudança de texto passa a ser feita nos três arquivos (`index.html`, `en/index.html`, `es/index.html`).
 - Tradução feita pelo Claude, sem revisão de tradutor humano.
 
+**Respondido pelo Fausto em 16/10/2026:**
+- Atendimento pelo WhatsApp é só em português: quem atende é o próprio Anderson, que é brasileiro. O aviso no Contato ("Our team speaks Portuguese." / "Nuestro equipo habla portugués.") fica.
+- Espanhol da América Latina (o que já está no site, com "tú").
+
 **Confirmar com o cliente:**
-- Pode revisar a tradução (ou pedir para alguém fluente revisar)? Principalmente os textos de fé, da homenagem ao padrinho e do acompanhamento psicológico.
-- O atendimento pelo WhatsApp é só em português? Se alguém da equipe fala inglês ou espanhol, o aviso no Contato muda.
-- Espanhol: prefere o espanhol da América Latina (usado agora, com "tú") ou o da Espanha?
+- Tem alguém para revisar a tradução? O Fausto vai ver isso com o Anderson. Prioridade: textos de fé, homenagem ao padrinho e acompanhamento psicológico.
 
 ---
 
