@@ -22,6 +22,7 @@ Pedidos, status e pendências ficam em `SOLICITACOES-CLIENTE.md`.
 - `assets/css/style.css`: cores como variáveis no topo (`--azul #02274B`, `--amarelo #FDC202`). Fontes Outfit (títulos) e DM Sans (texto), hospedadas em `assets/fonts/`.
 - `assets/js/main.js`: menu do celular, botão de copiar PIX, ano do rodapé e animações `.reveal`.
 - `assets/img/`: fotos em WebP, cada uma com versão de 600 px (`-600.webp`). `og-image.jpg` é a prévia de compartilhamento (só adultos).
+- **Cache de 7 dias em `/assets/*`:** o CSS é chamado com `?v=AAAAMMDD-n` nos 4 HTML (`index.html`, `en/`, `es/`, `404.html`) e o JS nos 3 primeiros. **Ao mudar `style.css` ou `main.js`, troque esse número em todos eles**, senão quem já visitou o site continua com o arquivo antigo e o layout quebra (já aconteceu com o seletor de idioma no celular).
 - `_headers`: cabeçalhos de segurança (CSP, HSTS etc.) e cache. **Recurso externo novo precisa ser liberado na CSP.**
 - `.assetsignore`: impede publicar `README.md`, arquivos `*:Zone.Identifier` e **qualquer arquivo com espaço no nome** (fotos originais do cliente).
 - `sitemap.xml` e `robots.txt`.
